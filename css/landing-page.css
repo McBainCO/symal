@@ -21,6 +21,11 @@ h6 {
     font-weight: 700;
 }
 
+.mc-button {
+  color: black;
+
+}
+
 .topnav {
     font-size: 14px;
 }
@@ -35,7 +40,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background-color: white;
+    background: url(../img/skyline.jpg);
     background-size: cover;
 }
 
@@ -43,6 +48,7 @@ h6 {
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
+    color: black;
 }
 
 .intro-message > h1 {
@@ -168,8 +174,11 @@ h6 {
 }
 
 footer {
+    position: fixed;
+    width: 100%;
     padding: 50px 0;
     background-color: #f8f8f8;
+
 }
 
 p.copyright {
